@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayaqqabı Mağazası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <header>
+        <h1>🔥 Fərq - Ayaqqabı Mağazası</h1>
+        <p>Seçiminiz ilə fərqlənin, ən son dəb ayaqqabılar burada!</p>
+    </header>
+    </header>
+
+    <main class="products-container">
+        <!-- Məhsul 1 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Sport Krosovka">
+            <h3>Sport Qırmızı Krosovka</h3>
+            <p class="price">85 AZN</p>
+            
+            <label for="size1">Ölçü seçin:</label>
+            <select id="size1" class="size-select">
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+            </select>
+
+            <button class="order-btn" onclick="orderWhatsApp('Sport Qırmızı Krosovka', this)">WhatsApp ilə Sifariş</button>
+        </div>
+
+        <!-- Məhsul 2 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f" alt="Klassik Ayaqqabı">
+            <h3>Klassik Dəri Ayaqqabı</h3>
+            <p class="price">120 AZN</p>
+            
+            <label for="size2">Ölçü seçin:</label>
+            <select id="size2" class="size-select">
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+            </select>
+
+            <button class="order-btn" onclick="orderWhatsApp('Klassik Dəri Ayaqqabı', this)">WhatsApp ilə Sifariş</button>
+        </div>
+        <!-- Məhsul 3 -->
+        <div class="product-card">
+            <img src="BURAYA_SEKILLIN_LINKINI_YAZ" alt="Ayaqqabı Adı">
+            <h3>Yeni Ayaqqabı Modelin</h3>
+            <p class="price">95 AZN</p>
+            
+            <label for="size3">Ölçü seçin:</label>
+            <select id="size3" class="size-select">
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+            </select>
+
+            <button class="order-btn" onclick="orderWhatsApp('Yeni Ayaqqabı Modelin', this)">WhatsApp ilə Sifariş</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
